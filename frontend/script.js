@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
       addMessageToChat(reply, 'received');
     } catch (error) {
       console.error('Error sending message:', error);
-      addMessageToChat('Error: Failed to get a response from the server', 'received');
+      addMessageToChat('Error: hey i think something went worng in me ... ', 'received');
     }
   });
 
